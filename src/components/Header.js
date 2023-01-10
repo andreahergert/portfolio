@@ -1,11 +1,15 @@
 import React from 'react';
-// Here we are importing a CSS file as a dependency
-// import '../styles/Header.css';
+
+const styles = {
+  header: {
+    textAlign: 'center',
+  },
+};
 
 function Header() {
   return (
-    <header className="header">
-      <h1>Andrea Hergert</h1>
+    <header >
+      <h1 style={styles.header}>Andrea Hergert</h1>
     </header>
   );
 }
