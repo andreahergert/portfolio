@@ -1,12 +1,24 @@
 import React from 'react';
 import AndreaHergert from "../../img/andreahergert.jpg";
 
+const styles = {
+  andreahergert: {
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    maxHeight: '200px',
+    maxWidth: '200px',
+    borderRadius: '25%',
+    border: '3px solid',
+  },
+};
+
 export default function About() {
   return (
     <div>
       <h2>About Me</h2>
       <div>
-      <img src={AndreaHergert} alt="Andrea Hergert" />
+      <img style={styles.andreahergert} src={AndreaHergert} alt="Andrea Hergert" />
       </div>
       <p>
         UW Coding Bootcamp Student who's learning full-stack web development. Former Librarian.  As a full-stack web developer, I am a driven and self-motivated individual with a passion for technology and a desire to make a positive impact through my work. I have a strong foundation in programming languages and a proven ability to learn and adapt quickly in a fast-paced environment. With a focus on delivering high-quality, reliable solutions, I am committed to constantly improving my skills and staying up-to-date with the latest technologies. Whether working independently or as part of a team, I am always striving to contribute to the success of the project and the company.
