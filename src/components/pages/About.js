@@ -4,7 +4,7 @@ import AndreaHergert from "../../img/andreahergert.jpg";
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <div>
       <img src={AndreaHergert} alt="Andrea Hergert" />
       </div>
