@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.83978d28.css",
-    "main.js": "/portfolio/static/js/main.7fe15b9a.js",
+    "main.js": "/portfolio/static/js/main.ed4199ad.js",
     "static/media/andreahergert.jpg": "/portfolio/static/media/andreahergert.ae94715a5e6b333be8d2.jpg",
     "index.html": "/portfolio/index.html",
     "main.83978d28.css.map": "/portfolio/static/css/main.83978d28.css.map",
-    "main.7fe15b9a.js.map": "/portfolio/static/js/main.7fe15b9a.js.map"
+    "main.ed4199ad.js.map": "/portfolio/static/js/main.ed4199ad.js.map"
   },
   "entrypoints": [
     "static/css/main.83978d28.css",
-    "static/js/main.7fe15b9a.js"
+    "static/js/main.ed4199ad.js"
   ]
 }
