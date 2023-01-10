@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.83978d28.css",
-    "main.js": "/portfolio/static/js/main.b87a1a48.js",
+    "main.js": "/portfolio/static/js/main.7c67eb91.js",
+    "static/media/crater-lake.jpg": "/portfolio/static/media/crater-lake.bf8334061b4564c1e898.jpg",
+    "static/media/ferry.jpg": "/portfolio/static/media/ferry.6610f42c928c2d1c53d0.jpg",
+    "static/media/california-coast.jpg": "/portfolio/static/media/california-coast.65adf6791c4b519367e9.jpg",
+    "static/media/ice-plant.jpg": "/portfolio/static/media/ice-plant.28ad2aff6db2c2813213.jpg",
+    "static/media/port-townsend.jpg": "/portfolio/static/media/port-townsend.fe207d101401bcca45fe.jpg",
     "static/media/andreahergert.jpg": "/portfolio/static/media/andreahergert.ae94715a5e6b333be8d2.jpg",
+    "static/media/boats.jpg": "/portfolio/static/media/boats.37efdce1fe98f8fcfa57.jpg",
     "index.html": "/portfolio/index.html",
     "main.83978d28.css.map": "/portfolio/static/css/main.83978d28.css.map",
-    "main.b87a1a48.js.map": "/portfolio/static/js/main.b87a1a48.js.map"
+    "main.7c67eb91.js.map": "/portfolio/static/js/main.7c67eb91.js.map"
   },
   "entrypoints": [
     "static/css/main.83978d28.css",
-    "static/js/main.b87a1a48.js"
+    "static/js/main.7c67eb91.js"
   ]
 }
