@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3d01df20.css",
-    "main.js": "/portfolio/static/js/main.17f988df.js",
+    "main.js": "/portfolio/static/js/main.b4d879b8.js",
     "static/media/crater-lake.jpg": "/portfolio/static/media/crater-lake.bf8334061b4564c1e898.jpg",
     "static/media/ferry.jpg": "/portfolio/static/media/ferry.6610f42c928c2d1c53d0.jpg",
     "static/media/california-coast.jpg": "/portfolio/static/media/california-coast.65adf6791c4b519367e9.jpg",
@@ -12,10 +12,10 @@
     "static/media/Andrea_Hergert_Resume.pdf": "/portfolio/static/media/Andrea_Hergert_Resume.fd104ff44b3475a5c583.pdf",
     "index.html": "/portfolio/index.html",
     "main.3d01df20.css.map": "/portfolio/static/css/main.3d01df20.css.map",
-    "main.17f988df.js.map": "/portfolio/static/js/main.17f988df.js.map"
+    "main.b4d879b8.js.map": "/portfolio/static/js/main.b4d879b8.js.map"
   },
   "entrypoints": [
     "static/css/main.3d01df20.css",
-    "static/js/main.17f988df.js"
+    "static/js/main.b4d879b8.js"
   ]
 }
