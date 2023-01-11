@@ -1,32 +1,17 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <ul className="nav">
-      <li className="nav-item">
-        <a href="https://github.com/andreahergert" target="blank">
-          GitHub
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="https://www.linkedin.com/in/andreahergert/" target="blank">
-          LinkedIn
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="https://www.goodreads.com/andreahergert" target="blank">
-          Goodreads
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="https://post.news/@andreahergert" target="blank">
-          Post
-        </a>
-      </li>
-    </ul>
+    <footer className="text-center">
+      <div className="container p-4">
+        <section className="mb-4">
+          <a className="btn btn-primary btn-floating m-1" href="https://github.com/andreahergert" target="blank" role="button">Github<i className="fab fa-github"></i></a>
+          <a className="btn btn-primary btn-floating m-1" href="https://www.linkedin.com/in/andreahergert/" target="blank" role="button">LinkedIn<i className="fab fa-linkedin-in"></i></a>
+          <a className="btn btn-primary btn-floating m-1" href="https://www.goodreads.com/andreahergert" target="blank" role="button">Goodreads<i className="fab fa-linkedin-in"></i></a>
+          <a className="btn btn-primary btn-floating m-1" href="https://post.news/@andreahergert" target="blank" role="button">Post<i className="fab fa-linkedin-in"></i></a>
+        </section>
+      </div>
+    </footer>
   );
 }
 
