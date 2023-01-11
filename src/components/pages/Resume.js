@@ -5,11 +5,15 @@ const styles = {
   h2: {
     textAlign: 'center',
   },
+  space: {
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem',
+  },
 };
 
 export default function Resume() {
   return (
-    <div>
+    <div style={styles.space}>
       <h2 style={styles.h2}>Resume</h2>
       <p style={styles.h2}>
         <a href={ResumeAndreaHergert} download>

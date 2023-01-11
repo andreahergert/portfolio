@@ -14,11 +14,15 @@ const styles = {
   h2: {
     textAlign: 'center',
   },
+  space: {
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem',
+  },
 };
 
 export default function About() {
   return (
-    <div>
+    <div style={styles.space}>
       <h2 style={styles.h2}>About Me</h2>
       <div>
       <img style={styles.andreahergert} src={AndreaHergert} alt="Andrea Hergert" />

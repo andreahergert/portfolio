@@ -6,6 +6,10 @@ const styles = {
   h2: {
     textAlign: 'center',
   },
+  space: {
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem',
+  },
 };
 
 function Form() {
@@ -43,7 +47,7 @@ function Form() {
   };
 
   return (
-    <div>
+    <div style={styles.space}>
       <h2 style={styles.h2}>Contact</h2>
       <form className="form">
         <div>

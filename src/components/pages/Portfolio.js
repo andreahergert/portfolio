@@ -11,11 +11,15 @@ const styles = {
   h2: {
     textAlign: 'center',
   },
+  space: {
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem',
+  },
 };
 
 export default function Portfolio() {
   return (
-    <div>
+    <div style={styles.space}>
       <h2 style={styles.h2}>Portfolio</h2>
       <div>
         <a href="https://ancient-citadel-20743.herokuapp.com/" target="blank">
