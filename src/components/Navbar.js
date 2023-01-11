@@ -1,7 +1,14 @@
 import React from 'react';
 
+const styles = {
+  navbar: {
+    backgroundColor: '#ceb4a1',
+  },
+};
+
 function Navbar({ currentPage, handlePageChange }) {
   return (
+    <nav style={styles.navbar}>
     <ul className='nav justify-content-center'>
       <li className="nav-item">
         <a
@@ -40,6 +47,7 @@ function Navbar({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </nav>
   );
 }
 
