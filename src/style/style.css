@@ -1,7 +1,8 @@
 .body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #C1FAFF;
-}
+    min-height: 100vh;
+};
 
 /* Tablets */
 @media screen and (max-width: 992px) {}
