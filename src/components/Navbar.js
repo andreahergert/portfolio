@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   navbar: {
-    backgroundColor: '#ceb4a1',
+    backgroundColor: '#58C2C7',
   },
 };
 

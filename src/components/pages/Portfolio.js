@@ -8,12 +8,15 @@ import PortTownsend from "../../img/port-townsend.jpg";
 
 const styles = {
   project: {},
+  h2: {
+    textAlign: 'center',
+  },
 };
 
 export default function Portfolio() {
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h2 style={styles.h2}>Portfolio</h2>
       <div>
         <a href="https://ancient-citadel-20743.herokuapp.com/" target="blank">
           <img

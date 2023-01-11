@@ -1,11 +1,17 @@
 import React from "react";
 import ResumeAndreaHergert from "../../pdf/Andrea_Hergert_Resume.pdf";
 
+const styles = {
+  h2: {
+    textAlign: 'center',
+  },
+};
+
 export default function Resume() {
   return (
     <div>
-      <h2>Resume</h2>
-      <p>
+      <h2 style={styles.h2}>Resume</h2>
+      <p style={styles.h2}>
         <a href={ResumeAndreaHergert} download>
           Download Full Resume
         </a>
@@ -25,7 +31,7 @@ export default function Resume() {
       </p>
       <h3>Technical Skills</h3>
       <p>
-        <h4>Front-End</h4>
+        <h4 >Front-End</h4>
         <ul>
           <li>HTML</li>
           <li>CSS</li>

@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
+const styles = {
+  h2: {
+    textAlign: 'center',
+  },
+};
+
 function Form() {
   const [email, setEmail] = useState('');
   const [Name, setName] = useState('');
@@ -38,7 +44,7 @@ function Form() {
 
   return (
     <div>
-      <h2>Contact</h2>
+      <h2 style={styles.h2}>Contact</h2>
       <form className="form">
         <div>
         <input

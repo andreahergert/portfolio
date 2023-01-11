@@ -9,14 +9,17 @@ const styles = {
     maxHeight: '200px',
     maxWidth: '200px',
     borderRadius: '25%',
-    border: '3px solid',
+    border: '3px solid #58C2C7',
+  },
+  h2: {
+    textAlign: 'center',
   },
 };
 
 export default function About() {
   return (
     <div>
-      <h2>About Me</h2>
+      <h2 style={styles.h2}>About Me</h2>
       <div>
       <img style={styles.andreahergert} src={AndreaHergert} alt="Andrea Hergert" />
       </div>
