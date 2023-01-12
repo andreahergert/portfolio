@@ -8,7 +8,7 @@ const styles = {
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <nav style={styles.navbar}>
+    <nav scrollspy style={styles.navbar}>
       <header className='nav justify-content-center'><h1>Andrea Hergert</h1></header>
     <ul className='nav justify-content-center'>
       <li className="nav-item">
