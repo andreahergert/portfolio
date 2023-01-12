@@ -1,7 +1,6 @@
-.images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.card {
+    width: 25%;
+    margin: 0.5rem;
 }
 
 img {
