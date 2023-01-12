@@ -4,13 +4,16 @@ const styles = {
   navbar: {
     backgroundColor: '#58C2C7',
   },
+  navbarA: {
+    color: '#0000FF',
+  }
 };
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <nav scrollspy style={styles.navbar}>
+    <nav style={styles.navbar}>
       <header className='nav justify-content-center'><h1>Andrea Hergert</h1></header>
-    <ul className='nav justify-content-center'>
+    <ul style={styles.navbarA} className='nav justify-content-center'>
       <li className="nav-item">
         <a
           href="#about"
