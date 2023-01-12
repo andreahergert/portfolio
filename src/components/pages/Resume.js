@@ -9,6 +9,9 @@ const styles = {
     paddingLeft: '0.5rem',
     paddingRight: '0.5rem',
   },
+  h3: {
+    paddingTop: '0.75rem',
+  }
 };
 
 export default function Resume() {
@@ -20,7 +23,7 @@ export default function Resume() {
           Download Full Resume
         </a>
       </p>
-      <h3>Technical Skills</h3>
+      <h3 style={styles.h3}>Technical Skills</h3>
       <p>
         <h4 >Front-End</h4>
         <ul>
@@ -45,7 +48,7 @@ export default function Resume() {
           <li>APIs</li>
         </ul>
       </p>
-      <h3>Work Experience</h3>
+      <h3 style={styles.h3}>Work Experience</h3>
       <p>
         <h4>Librarian I – Information Services / Cataloging</h4>
         <h5>Jefferson County Library, Port Hadlock, WA</h5>
@@ -114,7 +117,7 @@ export default function Resume() {
           </li>
         </ul>
       </p>
-      <h3>Education</h3>
+      <h3 style={styles.h3}>Education</h3>
       <p>
         <h4>Coding Bootcamp Certificate of Completion (2/2023)</h4>
         University of Washington Professional & Continuing Education, Seattle,
