@@ -6,7 +6,7 @@ import CalCoast from "../../img/california-coast.jpg";
 import Ferry from "../../img/ferry.jpg";
 import PortTownsend from "../../img/port-townsend.jpg";
 
-import '../../style/style.css';
+import "../../style/portfolio.css";
 
 const styles = {
   project: {
@@ -30,7 +30,7 @@ export default function Portfolio() {
   return (
     <div style={styles.space}>
       <h2 style={styles.h2}>Portfolio</h2>
-      <div>
+      <div className='images'>
         <section className="card">
           <header><h3 style={styles.header}>Tech Blog</h3></header>
           <a href="https://ancient-citadel-20743.herokuapp.com/" target="blank">
