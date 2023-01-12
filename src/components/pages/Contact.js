@@ -1,31 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from "../../utils/helpers";
 
 const styles = {
   h2: {
-    textAlign: 'center',
+    textAlign: "center",
   },
   space: {
-    paddingLeft: '0.5rem',
-    paddingRight: '0.5rem',
+    paddingLeft: "0.5rem",
+    paddingRight: "0.5rem",
   },
 };
 
 function Form() {
-  const [email, setEmail] = useState('');
-  const [Name, setName] = useState('');
-  const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [email, setEmail] = useState("");
+  const [Name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === 'email') {
+    if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === 'Name') {
+    } else if (inputType === "Name") {
       setName(inputValue);
     } else {
       setMessage(inputValue);
@@ -35,15 +35,29 @@ function Form() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-
     if (!validateEmail(email)) {
-      setErrorMessage('Email is invalid');
+      alert("Email is Invalid");
       return;
     }
 
-    setName('');
-    setMessage('');
-    setEmail('');
+    if (!Name) {
+      alert("Field is Required");
+      return;
+    }
+
+    if (!message) {
+      alert("Field is Required");
+      return;
+    }
+
+    if (email || Name || message) {
+      setSuccessMessage("Form Submitted Successfully");
+      return;
+    }
+
+    setName("");
+    setMessage("");
+    setEmail("");
   };
 
   return (
@@ -51,22 +65,24 @@ function Form() {
       <h2 style={styles.h2}>Contact</h2>
       <form className="form">
         <div>
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+            required
+          />
         </div>
         <div>
-        <input
-          value={Name}
-          name="Name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
+          <input
+            value={Name}
+            name="Name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+            required
+          />
         </div>
         <input
           value={message}
@@ -74,14 +90,17 @@ function Form() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
+          required
         />
         <div>
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+          <button type="button" onClick={handleFormSubmit}>
+            Submit
+          </button>
         </div>
       </form>
-      {errorMessage && (
+      {successMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="success-text">{successMessage}</p>
         </div>
       )}
     </div>
