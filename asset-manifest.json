@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.44c83ff3.css",
-    "main.js": "/portfolio/static/js/main.84880f36.js",
-    "static/media/crater-lake.jpg": "/portfolio/static/media/crater-lake.bf8334061b4564c1e898.jpg",
-    "static/media/ferry.jpg": "/portfolio/static/media/ferry.6610f42c928c2d1c53d0.jpg",
-    "static/media/california-coast.jpg": "/portfolio/static/media/california-coast.65adf6791c4b519367e9.jpg",
-    "static/media/ice-plant.jpg": "/portfolio/static/media/ice-plant.28ad2aff6db2c2813213.jpg",
-    "static/media/port-townsend.jpg": "/portfolio/static/media/port-townsend.fe207d101401bcca45fe.jpg",
+    "main.css": "/portfolio/static/css/main.30aa734e.css",
+    "main.js": "/portfolio/static/js/main.5adc2b33.js",
+    "static/media/weather_dashboard.png": "/portfolio/static/media/weather_dashboard.dc20db1601af63097f0e.png",
     "static/media/andreahergert.jpg": "/portfolio/static/media/andreahergert.ae94715a5e6b333be8d2.jpg",
-    "static/media/boats.jpg": "/portfolio/static/media/boats.37efdce1fe98f8fcfa57.jpg",
     "static/media/Andrea_Hergert_Resume.pdf": "/portfolio/static/media/Andrea_Hergert_Resume.fd104ff44b3475a5c583.pdf",
+    "static/media/motivation_station.png": "/portfolio/static/media/motivation_station.3e1da9b4cd3e808c489e.png",
+    "static/media/tech_blog.png": "/portfolio/static/media/tech_blog.6c392dff586498b99624.png",
+    "static/media/social_network.png": "/portfolio/static/media/social_network.e1f8feae60b7201593f4.png",
+    "static/media/employee_tracker.png": "/portfolio/static/media/employee_tracker.706a183afc3c608ff312.png",
+    "static/media/text_editor.png": "/portfolio/static/media/text_editor.2fbb320c52935cfa6439.png",
     "index.html": "/portfolio/index.html",
-    "main.44c83ff3.css.map": "/portfolio/static/css/main.44c83ff3.css.map",
-    "main.84880f36.js.map": "/portfolio/static/js/main.84880f36.js.map"
+    "main.30aa734e.css.map": "/portfolio/static/css/main.30aa734e.css.map",
+    "main.5adc2b33.js.map": "/portfolio/static/js/main.5adc2b33.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c83ff3.css",
-    "static/js/main.84880f36.js"
+    "static/css/main.30aa734e.css",
+    "static/js/main.5adc2b33.js"
   ]
 }
