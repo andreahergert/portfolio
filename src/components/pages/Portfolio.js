@@ -18,12 +18,14 @@ const styles = {
   },
   header: {
     textAlign: "center",
+    color: '#0000FF',
+    paddingBottom: "0.15rem",
   },
 };
 
 export default function Portfolio() {
   return (
-    <div style={styles.space}>
+    <div>
       <h2 style={styles.h2}>Portfolio</h2>
       <div className="container">
         <div className="row">

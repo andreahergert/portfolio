@@ -6,9 +6,11 @@ const styles = {
   h2: {
     textAlign: "center",
   },
-  space: {
-    paddingLeft: "0.5rem",
-    paddingRight: "0.5rem",
+  form: {
+    textAlign: "center",
+  },
+  input: {
+    margin: '0.5rem',
   },
 };
 
@@ -61,10 +63,10 @@ function Form() {
   };
 
   return (
-    <div style={styles.space}>
+    <div>
       <h2 style={styles.h2}>Contact</h2>
-      <form className="form">
-        <div>
+      <form style={styles.form} className="form">
+        <div style={styles.input}>
           <input
             value={email}
             name="email"
@@ -74,7 +76,7 @@ function Form() {
             required
           />
         </div>
-        <div>
+        <div style={styles.input}>
           <input
             value={Name}
             name="Name"
@@ -84,6 +86,7 @@ function Form() {
             required
           />
         </div>
+        <div style={styles.input}>
         <input
           value={message}
           name="message"
@@ -92,6 +95,7 @@ function Form() {
           placeholder="message"
           required
         />
+        </div>
         <div>
           <button type="button" onClick={handleFormSubmit}>
             Submit

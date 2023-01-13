@@ -6,13 +6,17 @@ const styles = {
   },
   navbarA: {
     color: '#0000FF',
+    fontSize: '19px',
+  },
+  h1:{
+    fontSize: '50px',
   }
 };
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <nav style={styles.navbar}>
-      <header className='nav justify-content-center'><h1>Andrea Hergert</h1></header>
+      <header className='nav justify-content-center'><h1 style={styles.h1}>Andrea Hergert</h1></header>
     <ul style={styles.navbarA} className='nav justify-content-center'>
       <li className="nav-item">
         <a
