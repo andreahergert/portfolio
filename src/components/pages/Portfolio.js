@@ -18,6 +18,10 @@ const styles = {
   },
   header: {
     textAlign: "center",
+    paddingBottom: "0.15rem",
+  },
+  repo: {
+    textAlign: "center",
     color: '#0000FF',
     paddingBottom: "0.15rem",
   },
@@ -41,7 +45,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/tech_blog"
           >
             GitHub Repository
@@ -69,7 +73,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/text_editor"
           >
             GitHub Repository
@@ -93,7 +97,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/social_network_api"
           >
             GitHub Repository
@@ -120,7 +124,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/motivation_station"
           >
             GitHub Repository
@@ -147,7 +151,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/employee_tracker"
           >
             GitHub Repository
@@ -175,7 +179,7 @@ export default function Portfolio() {
             </header>
           </a>
           <a
-            style={styles.header}
+            style={styles.repo}
             href="https://github.com/andreahergert/weather_dashboard"
           >
             GitHub Repository

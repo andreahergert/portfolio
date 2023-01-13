@@ -5,6 +5,9 @@ const styles = {
   h2: {
     textAlign: 'center',
   },
+  link: {
+    color: '#0000FF',
+  },
   space: {
     paddingLeft: '0.5rem',
     paddingRight: '0.5rem',
@@ -19,7 +22,7 @@ export default function Resume() {
     <div style={styles.space}>
       <h2 style={styles.h2}>Resume</h2>
       <p style={styles.h2}>
-        <a href={ResumeAndreaHergert} download>
+        <a style={styles.link} href={ResumeAndreaHergert} download>
           Download Full Resume
         </a>
       </p>
