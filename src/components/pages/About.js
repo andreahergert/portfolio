@@ -10,6 +10,7 @@ const styles = {
     maxWidth: '200px',
     borderRadius: '25%',
     border: '3px solid #58C2C7',
+    filter: 'opacity(100%)',
   },
   h2: {
     textAlign: 'center',
