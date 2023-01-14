@@ -11,6 +11,7 @@ const styles = {
     borderRadius: '25%',
     border: '3px solid #58C2C7',
     filter: 'opacity(100%)',
+    cursor: 'default',
   },
   h2: {
     textAlign: 'center',
