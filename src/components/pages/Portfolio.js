@@ -50,6 +50,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/tech_blog"
+              target="blank"
             >
               GitHub Repository
             </a>
@@ -78,6 +79,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/employee_tracker"
+              target="blank"
             >
               GitHub Repository
             </a>
@@ -106,6 +108,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/motivation_station"
+              target="blank"
             >
               GitHub Repository
             </a>
@@ -138,6 +141,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/social_network_api"
+              target="blank"
             >
               GitHub Repository
             </a>
@@ -166,6 +170,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/weather_dashboard"
+              target="blank"
             >
               GitHub Repository
             </a>
@@ -193,6 +198,7 @@ export default function Portfolio() {
             <a
               style={styles.repo}
               href="https://github.com/andreahergert/text_editor"
+              target="blank"
             >
               GitHub Repository
             </a>
