@@ -12,6 +12,9 @@ const styles = {
   input: {
     margin: '0.5rem',
   },
+  inputa: {
+    height: '4rem',
+  },
 };
 
 function Form() {
@@ -88,6 +91,7 @@ function Form() {
         </div>
         <div style={styles.input}>
         <input
+          style={styles.inputa}
           value={message}
           name="message"
           onChange={handleInputChange}
