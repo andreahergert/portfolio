@@ -107,7 +107,7 @@ function Form() {
         </div>
       </form>
       {successMessage && (
-        <div>
+        <div style={styles.form}>
           <p className="success-text">{successMessage}</p>
         </div>
       )}
