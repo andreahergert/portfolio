@@ -13,7 +13,7 @@
 - [Questions](#questions)
 
 ## Description:
-This is a portfolio for Andrea Hergert that shows information about her, examples of her applications, contact info, and resume.  It was created using React and it utilizes bootstrap.
+This is my portfolio that shows information about myself, examples of my applications, contact info, and resume.  It was created using React and it utilizes bootstrap.
 
 ## Usage:
 
