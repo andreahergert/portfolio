@@ -33,7 +33,7 @@ export default function Portfolio() {
       <h2 style={styles.h2}>Portfolio</h2>
       <div className="container">
         <div className="row justify-content-center">
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://ancient-citadel-20743.herokuapp.com/"
               target="blank"
@@ -62,7 +62,7 @@ export default function Portfolio() {
             </p>
           </section>
 
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://www.youtube.com/watch?v=6G3ubKlC82c"
               target="blank"
@@ -91,7 +91,7 @@ export default function Portfolio() {
             </p>
           </section>
 
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://secret-springs-16165.herokuapp.com/"
               target="blank"
@@ -124,7 +124,7 @@ export default function Portfolio() {
         </div>
 
         <div className="row justify-content-center">
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://www.youtube.com/watch?v=CMaXuKK3Jjc"
               target="blank"
@@ -153,7 +153,7 @@ export default function Portfolio() {
             </p>
           </section>
 
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://andreahergert.github.io/weather_dashboard/"
               target="blank"
@@ -181,7 +181,7 @@ export default function Portfolio() {
             </p>
           </section>
 
-          <section className="card col-3 p-0 m-2">
+          <section className="card p-0 m-2">
             <a
               href="https://murmuring-garden-28398.herokuapp.com/"
               target="blank"

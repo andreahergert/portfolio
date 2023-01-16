@@ -1,6 +1,6 @@
-.card {
+section.card {
     margin: 0.5rem;
-
+    max-width: 25%;
 }
 
 img {
@@ -10,4 +10,27 @@ img {
 img:hover {
     cursor: pointer;
     filter: opacity(100%);
+}
+
+@media screen and (max-width: 992px) {
+    section.card {
+        margin: 0.5rem;
+        max-width: 25%;
+    }
+}
+
+/* Large smartphones*/
+@media screen and (max-width: 768px) {
+    section.card {
+        margin: 0.5rem;
+        max-width: 50%;
+    }
+}
+
+/* Small smartphones*/
+@media screen and (max-width: 576px) {
+    section.card {
+        margin: 0.5rem;
+        max-width: 100%;
+    }
 }
