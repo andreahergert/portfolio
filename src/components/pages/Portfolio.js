@@ -32,7 +32,7 @@ export default function Portfolio() {
     <div>
       <h2 style={styles.h2}>Portfolio</h2>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <section className="card col-3 p-0 m-2">
             <a
               href="https://ancient-citadel-20743.herokuapp.com/"
@@ -123,7 +123,7 @@ export default function Portfolio() {
           </section>
         </div>
 
-        <div className="row">
+        <div className="row justify-content-center">
           <section className="card col-3 p-0 m-2">
             <a
               href="https://www.youtube.com/watch?v=CMaXuKK3Jjc"
