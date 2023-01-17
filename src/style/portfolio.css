@@ -1,4 +1,4 @@
-section.card {
+.card {
     margin: 0.5rem;
     max-width: 25%;
 }
@@ -13,7 +13,7 @@ img:hover {
 }
 
 @media screen and (max-width: 992px) {
-    section.card {
+    .card {
         margin: 0.5rem;
         max-width: 25%;
     }
@@ -21,7 +21,7 @@ img:hover {
 
 /* Large smartphones*/
 @media screen and (max-width: 768px) {
-    section.card {
+    .card {
         margin: 0.5rem;
         max-width: 50%;
     }
@@ -29,7 +29,7 @@ img:hover {
 
 /* Small smartphones*/
 @media screen and (max-width: 576px) {
-    section.card {
+    .card {
         margin: 0.5rem;
         max-width: 100%;
     }
