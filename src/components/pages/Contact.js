@@ -9,11 +9,14 @@ const styles = {
   form: {
     textAlign: "center",
   },
+  email: {
+    justify: "center",
+  },
   input: {
-    margin: '0.5rem',
+    margin: "0.5rem",
   },
   inputa: {
-    height: '4rem',
+    height: "4rem",
   },
 };
 
@@ -68,6 +71,9 @@ function Form() {
   return (
     <div>
       <h2 style={styles.h2}>Contact</h2>
+      <div style={styles.form}>
+        <a href="ahergert24@hotmail.com">Email me here: ahergert24@hotmail.com</a>
+      </div>
       <form style={styles.form} className="form">
         <div style={styles.input}>
           <input
@@ -90,15 +96,15 @@ function Form() {
           />
         </div>
         <div style={styles.input}>
-        <input
-          style={styles.inputa}
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="message"
-          required
-        />
+          <input
+            style={styles.inputa}
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="message"
+            placeholder="message"
+            required
+          />
         </div>
         <div>
           <button type="button" onClick={handleFormSubmit}>
