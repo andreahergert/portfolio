@@ -9,6 +9,10 @@ const styles = {
   form: {
     textAlign: "center",
   },
+  email: {
+    textAlign: "center",
+    color: "#0000FF",
+  },
   input: {
     margin: "0.5rem",
   },
@@ -68,8 +72,8 @@ function Form() {
   return (
     <div>
       <h2 style={styles.h2}>Contact</h2>
-      <div style={styles.form}>
-        <a href="ahergert24@hotmail.com">Email me here: ahergert24@hotmail.com</a>
+      <div style={styles.email}>
+        <a href="mailto:ahergert24@hotmail.com">ahergert24@hotmail.com</a>
       </div>
       <form style={styles.form} className="form">
         <div style={styles.input}>
