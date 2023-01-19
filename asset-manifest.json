@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30aa734e.css",
-    "main.js": "/portfolio/static/js/main.95efd4b0.js",
+    "main.js": "/portfolio/static/js/main.6f30c203.js",
     "static/media/weather_dashboard.png": "/portfolio/static/media/weather_dashboard.dc20db1601af63097f0e.png",
     "static/media/andreahergert.jpg": "/portfolio/static/media/andreahergert.ae94715a5e6b333be8d2.jpg",
     "static/media/Andrea_Hergert_Resume.pdf": "/portfolio/static/media/Andrea_Hergert_Resume.9cd91dcac32017ba7a88.pdf",
@@ -12,10 +12,10 @@
     "static/media/text_editor.png": "/portfolio/static/media/text_editor.2fbb320c52935cfa6439.png",
     "index.html": "/portfolio/index.html",
     "main.30aa734e.css.map": "/portfolio/static/css/main.30aa734e.css.map",
-    "main.95efd4b0.js.map": "/portfolio/static/js/main.95efd4b0.js.map"
+    "main.6f30c203.js.map": "/portfolio/static/js/main.6f30c203.js.map"
   },
   "entrypoints": [
     "static/css/main.30aa734e.css",
-    "static/js/main.95efd4b0.js"
+    "static/js/main.6f30c203.js"
   ]
 }
