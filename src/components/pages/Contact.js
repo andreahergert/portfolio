@@ -9,9 +9,6 @@ const styles = {
   form: {
     textAlign: "center",
   },
-  email: {
-    justify: "center",
-  },
   input: {
     margin: "0.5rem",
   },
