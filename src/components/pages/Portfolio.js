@@ -4,7 +4,7 @@ import TextEditor from "../../img/text_editor.png";
 import SocialNetwork from "../../img/social_network.png";
 import MotivationStation from "../../img/motivation_station.png";
 import EmployeeTracker from "../../img/employee_tracker.png";
-import WeatherDashboard from "../../img/weather_dashboard.png";
+import CurriculumCorner from "../../img/curriculum_corner.png";
 
 import "../../style/portfolio.css";
 
@@ -35,30 +35,27 @@ export default function Portfolio() {
         <div className="row justify-content-center">
           <section className="card col-sm-3 p-0 m-2">
             <a
-              href="https://ancient-citadel-20743.herokuapp.com/"
+              href="https://pacific-anchorage-45596.herokuapp.com/"
               target="blank"
             >
               <img
                 className="card-img-top"
-                src={TechBlog}
-                alt="screenshot of tech blog website showing rows of comments on homepage"
+                src={CurriculumCorner}
+                alt="screenshot of curriculum corner"
               />
               <header>
-                <h3 style={styles.header}>Tech Blog</h3>
+                <h3 style={styles.header}>Curriculum Corner</h3>
               </header>
             </a>
             <a
               style={styles.repo}
-              href="https://github.com/andreahergert/tech_blog"
+              href="https://github.com/andreahergert/curriculum_corner"
               target="blank"
             >
               GitHub Repository
             </a>
             <p style={styles.space}>
-              This is a tech blog created in the UW Coding Bootcamp. On the
-              front-end, the app can be accessed at Heroku. On the back-end,
-              this is a node command line application that utilizes sequilize,
-              dotenv, mysql2, express, handlebars, and bcrypt.
+            This is our group project for Project 3 created in the UW Coding Bootcamp. This is a MERN (MongoDB, Express.js, React, and Node.js) app that will allow a user to access a dashboard with their to-do list for keeping their educational goals. This app also utilizes bcrypt, jsonwebtoken, and bootstrap.
             </p>
           </section>
 
@@ -155,29 +152,30 @@ export default function Portfolio() {
 
           <section className="card col-sm-3 p-0 m-2">
             <a
-              href="https://andreahergert.github.io/weather_dashboard/"
+              href="https://ancient-citadel-20743.herokuapp.com/"
               target="blank"
             >
               <img
                 className="card-img-top"
-                src={WeatherDashboard}
-                alt="sunrise on puget sound in port townsend"
+                src={TechBlog}
+                alt="screenshot of tech blog website showing rows of comments on homepage"
               />
               <header>
-                <h3 style={styles.header}>Weather Dashboard</h3>
+                <h3 style={styles.header}>Tech Blog</h3>
               </header>
             </a>
             <a
               style={styles.repo}
-              href="https://github.com/andreahergert/weather_dashboard"
+              href="https://github.com/andreahergert/tech_blog"
               target="blank"
             >
               GitHub Repository
             </a>
             <p style={styles.space}>
-              This is a weather dashboard project for the UW Coding Bootcamp.
-              This page uses HTML, CSS, Javascript, and the Open Weather API to
-              create a functioning weather forecast for a city.
+              This is a tech blog created in the UW Coding Bootcamp. On the
+              front-end, the app can be accessed at Heroku. On the back-end,
+              this is a node command line application that utilizes sequilize,
+              dotenv, mysql2, express, handlebars, and bcrypt.
             </p>
           </section>
 
