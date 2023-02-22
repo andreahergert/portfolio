@@ -41,33 +41,33 @@ function Form() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (!validateEmail(email)) {
-      alert("Email is Invalid");
-      return;
-    }
+  //   if (!validateEmail(email)) {
+  //     alert("Email is Invalid");
+  //     return;
+  //   }
 
-    if (!Name) {
-      alert("Field is Required");
-      return;
-    }
+  //   if (!Name) {
+  //     alert("Field is Required");
+  //     return;
+  //   }
 
-    if (!message) {
-      alert("Field is Required");
-      return;
-    }
+  //   if (!message) {
+  //     alert("Field is Required");
+  //     return;
+  //   }
 
-    if (email || Name || message) {
-      setSuccessMessage("Form Submitted Successfully");
-      return;
-    }
+  //   if (email || Name || message) {
+  //     setSuccessMessage("Form Submitted Successfully");
+  //     return;
+  //   }
 
-    setName("");
-    setMessage("");
-    setEmail("");
-  };
+  //   setName("");
+  //   setMessage("");
+  //   setEmail("");
+  // };
 
   return (
     <div>
@@ -75,7 +75,7 @@ function Form() {
       <div style={styles.email}>
         <a href="mailto:ahergert24@hotmail.com">ahergert24@hotmail.com</a>
       </div>
-      <form style={styles.form} className="form">
+      {/* <form style={styles.form} className="form">
         <div style={styles.input}>
           <input
             value={email}
@@ -112,7 +112,7 @@ function Form() {
             Submit
           </button>
         </div>
-      </form>
+      </form> */}
       {successMessage && (
         <div style={styles.form}>
           <p className="success-text">{successMessage}</p>
