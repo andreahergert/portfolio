@@ -111,7 +111,7 @@ export default function Resume() {
         <ul>
           <li>
             Improved the accessibility and organization of library materials by
-            cataloging over 5,000 items in the Polaris Database using copy and
+            cataloging over 5,000 items in the Horizon Database using copy and
             original cataloging methods.
           </li>
           <li>
