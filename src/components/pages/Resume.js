@@ -3,18 +3,18 @@ import ResumeAndreaHergert from "../../pdf/Andrea_Hergert_Resume.pdf";
 
 const styles = {
   h2: {
-    textAlign: 'center',
+    textAlign: "center",
   },
   link: {
-    color: '#0000FF',
+    color: "#0000FF",
   },
   space: {
-    paddingLeft: '0.5rem',
-    paddingRight: '0.5rem',
+    paddingLeft: "0.5rem",
+    paddingRight: "0.5rem",
   },
   h3: {
-    paddingTop: '0.75rem',
-  }
+    paddingTop: "0.75rem",
+  },
 };
 
 export default function Resume() {
@@ -28,7 +28,7 @@ export default function Resume() {
       </p>
       <h3 style={styles.h3}>Technical Skills</h3>
       <p>
-        <h4 >Front-End</h4>
+        <h4>Front-End</h4>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -49,6 +49,7 @@ export default function Resume() {
           <li>Express</li>
           <li>Node</li>
           <li>APIs</li>
+          <li>GraphQL</li>
         </ul>
       </p>
       <h3 style={styles.h3}>Work Experience</h3>
@@ -58,20 +59,25 @@ export default function Resume() {
         (5/2016 – 7/2022)
         <ul>
           <li>
-            Copy and original cataloging of books, DVDs, CDs, and electronic
-            resources in the Polaris Database
+            Improved the accessibility and organization of library materials by
+            cataloging over 40,000 items in the Polaris Database using copy and
+            original cataloging methods.
           </li>
           <li>
-            Select and manage the collection for nonfiction, audiobooks, and
-            eAudiobooks
+            Managed a collection of over 12,000 nonfiction books, all the
+            fiction and nonfiction audiobooks and eAudiobooks, ensuring timely
+            acquisition and removal of materials to keep the collection
+            up-to-date and relevant for library users.
           </li>
           <li>
-            Develop and deliver various library programs and services including
-            technology classes and one-on-one tech help
+            Designed and implemented over 50 technology classes for library
+            patrons, resulting in an increase in digital literacy skills among
+            attendees.
           </li>
           <li>
-            Assist patrons and demonstrate the use of reference resources at the
-            Info Desk
+            Provided personalized reference services to patrons at the Info Desk
+            to determine their information needs and deliver tailored solutions,
+            promoting the use of library resources and technology.
           </li>
         </ul>
       </p>
@@ -81,18 +87,21 @@ export default function Resume() {
         (6/2014- 4/2016)
         <ul>
           <li>
-            Copy and original cataloging of books, DVDs, and electronic
-            resources in the III and Alma Database
+            Improved the accessibility and organization of library materials by
+            cataloging over 13,000 items in the III and Alma Database using copy
+            and original cataloging methods.
           </li>
           <li>
-            Assist in the hiring, training, scheduling, and supervision of
-            student workers
+            Played an integral role in the supervision and professional
+            development of a team of three student workers, providing guidance
+            and support to ensure the success of both the workers and the
+            library.
           </li>
           <li>
-            Verify and assign Library of Congress call numbers and subject
-            headings to records
+            Conducted a comprehensive weeding project of the government
+            documents collection, removing outdated and irrelevant materials and
+            making space for other collections.
           </li>
-          <li>Weeding the government documents collection</li>
         </ul>
       </p>
       <p>
@@ -101,22 +110,25 @@ export default function Resume() {
         (5/2008 - 5/2014)
         <ul>
           <li>
-            Copy and original cataloging of popular movies, music CDs, and large
-            print books in the Horizon Database
+            Improved the accessibility and organization of library materials by
+            cataloging over 5,000 items in the Polaris Database using copy and
+            original cataloging methods.
           </li>
           <li>
-            Develop and deliver various library programs and services including
-            technology classes
-          </li>
-          <li>Process, borrow, and lend interlibrary loans in WorldShare</li>
-          <li>Assist patrons at the reference and circulation desk</li>
-          <li>
-            Organize and deliver home library services at local senior living
-            facilities
+            Managed a collection of over 5,000 popular movies, music, and
+            eBooks, ensuring timely acquisition and removal of materials to keep
+            the collection up-to-date and relevant for library users.
           </li>
           <li>
-            Select and manage the collection for popular movies, music, and
-            eBooks
+            Designed and implemented over 30 technology classes for library
+            patrons, resulting in an increase in digital literacy skills among
+            attendees.
+          </li>
+          <li>
+            Provided personalized reference services to patrons at the reference
+            and circulation desk to determine their information needs and
+            deliver tailored solutions, promoting the use of library resources
+            and technology.
           </li>
         </ul>
       </p>
