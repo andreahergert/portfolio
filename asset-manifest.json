@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.30aa734e.css",
-    "main.js": "/portfolio/static/js/main.3b8675d6.js",
+    "main.js": "/portfolio/static/js/main.dd83e80f.js",
     "static/media/andreahergert.jpg": "/portfolio/static/media/andreahergert.ae94715a5e6b333be8d2.jpg",
     "static/media/motivation_station.png": "/portfolio/static/media/motivation_station.3e1da9b4cd3e808c489e.png",
     "static/media/tech_blog.png": "/portfolio/static/media/tech_blog.6c392dff586498b99624.png",
@@ -12,10 +12,10 @@
     "static/media/text_editor.png": "/portfolio/static/media/text_editor.5b47582a4f674fea25eb.png",
     "index.html": "/portfolio/index.html",
     "main.30aa734e.css.map": "/portfolio/static/css/main.30aa734e.css.map",
-    "main.3b8675d6.js.map": "/portfolio/static/js/main.3b8675d6.js.map"
+    "main.dd83e80f.js.map": "/portfolio/static/js/main.dd83e80f.js.map"
   },
   "entrypoints": [
     "static/css/main.30aa734e.css",
-    "static/js/main.3b8675d6.js"
+    "static/js/main.dd83e80f.js"
   ]
 }
